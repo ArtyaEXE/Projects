@@ -1,0 +1,246 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+}
+
+.header {
+    background-color:#3F2AFF ;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-nav__list {
+    display: flex;
+}
+.nav-list__item:not(:last-child) {
+    margin-right: 56px;
+}
+.list-item__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.hero {
+    background-image: url(/img/main-backgound.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__container {
+    padding: 130px 0;
+    background-image: url(/img/Group\ 95.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.hero__title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.hero__descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 70px;
+}
+.hero__btn {
+    padding: 24px 76px;
+    background-color: #3F2AFF;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.adv__container {
+    padding:80px 0;
+}
+
+.adv__img {
+    padding-top: 30px;
+}
+
+.adv__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #2E2B44;
+    margin-bottom: 30px;
+}
+.adv__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.adv__block {
+    display: flex;
+    align-items: center;
+}
+.block__logo {
+    margin-right: 30px;
+}
+.block__descr {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #666666;
+}
+
+.adv__top {
+    margin-bottom: 30px;
+}
+
+.teach {
+    background-color: #212133;
+}
+
+.teach__container {
+    padding: 80px 0;
+}
+.teach__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.teach__img {
+    border-radius: 25px 25px 0px 0px;
+    margin-bottom: 30px;
+}
+.teach__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.teach__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #85859B;
+}
+
+.curses {
+}
+.container {
+}
+.curses__container {
+    padding: 80px 0;
+}
+.curses__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #212133;
+    margin-bottom: 30px;
+}
+.row {
+}
+.col-6 {
+}
+.curses__block {
+    background-color: #EDF0F9;
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.curses__img {
+    width: 100%;
+}
+.curses__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #212133;
+    margin-bottom: 15px;
+}
+.curses__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: auto;
+}
+.curses__btn {
+    display: block;
+    padding:20px 59px;
+    background-color: #3F2AFF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    align-self: flex-start;
+}
+
+.row__curses {
+    --bs-gutter-y: 1.5rem;
+}
+
+.curses__col {
+    position: relative;
+}
+
+.curses__time {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: 20px;
+    top: 10px;
+}
+.time__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+.footer {
+    background-color: #2E2B44;
+}
+
+.footer__container {
+    padding: 30px 0;
+
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer__item img {
+    width: 20px;
+    height: 20px;
+}
+
